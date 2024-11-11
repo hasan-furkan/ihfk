@@ -83,7 +83,7 @@ export function PortfolioComponent() {
             <div>
               <h2 className="text-3xl font-bold mb-4">About Me</h2>
               <p className="text-xl text-muted-foreground">
-                I'm a passionate web developer with expertise in React, Next.js, and modern web technologies. 
+                I&apos;m a passionate web developer with expertise in React, Next.js, and modern web technologies. 
                 I love creating beautiful, responsive, and user-friendly websites.
               </p>
             </div>
