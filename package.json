@@ -28,6 +28,9 @@
     "react-dom": "^18",
     "react-hook-form": "^7.53.2",
     "react-icon-cloud": "^4.1.4",
+    "react-markdown": "^9.0.1",
+    "rehype-raw": "^7.0.0",
+    "rehype-sanitize": "^6.0.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
     "zod": "^3.23.8"
