@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  env: {
+    MEDIUM_RSS_URL: process.env.MEDIUM_RSS_URL,
+  },
   images: {
     remotePatterns: [
       {
@@ -10,11 +13,6 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'miro.medium.com',
-        pathname: '**',
-      },
-      {
-        protocol: 'https',
-        hostname: '*.medium.com',
         pathname: '**',
       }
     ],

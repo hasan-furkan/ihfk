@@ -1,58 +1,43 @@
+const username = "hasan-furkan"
+
 export const projects = [
     {
-        title: "Double Check Mobile App",
-        description: "A comprehensive mobile application built with React Native and Django backend. Features include user authentication, real-time notifications, and data synchronization.",
-        image: "/projects/doublecheck.png",
-        technologies: ["React Native", "Django", "PostgreSQL", "Redis"],
-        liveUrl: "https://doublecheck.com.tr/",
-        githubUrl: "https://github.com/yourusername/project",
+        title: "Portfolio",
+        description: "A personal portfolio website built with Next.js and Tailwind CSS.",
+        image: "/projects/portfolio.png",
+        technologies: ["Next.js", "Tailwind CSS"],
+        liveUrl: `https://ihfk.me`,
+        githubUrl: `https://github.com/${username}/ihfk`,
         highlights: [
-            "Implemented RESTful APIs using Django Rest Framework",
-            "Built responsive mobile UI with React Native",
-            "Integrated real-time notifications",
-            "Implemented caching with Redis"
+            "Implemented responsive design with Tailwind CSS",
+            "Integrated Framer Motion for animations",
+            "Optimized for performance and SEO",
+            "Deployed on Vercel"
         ]
     },
     {
-        title: "Kintshop E-commerce Platform",
-        description: "An e-commerce platform built with Django and Next.js, featuring advanced search capabilities and real-time inventory management.",
-        image: "/projects/kintshop.png",
-        technologies: ["Python", "Django", "Next.js", "Elasticsearch", "Redis"],
-        liveUrl: "https://kintshop.com/",
-        githubUrl: "https://github.com/yourusername/project",
+        title: "Django Logging Easy",
+        description: "A simple and flexible Django app for logging model actions and changes. This package allows developers to easily add logging capabilities to their Django models using decorators.",
+        image: "/projects/django-logging-easy.png",
+        technologies: ["Django", "Python"],
+        liveUrl: `https://pypi.org/project/django-logging-easy/`,
+        githubUrl: `https://github.com/${username}/django-model-logger`,
         highlights: [
-            "Implemented Elasticsearch for advanced search features",
-            "Built responsive UI with Next.js",
-            "Integrated payment gateway",
-            "Implemented caching system"
+            "Easily add logging capabilities to Django models",
+            "Customizable logging levels and messages",
+            "Supports both synchronous and asynchronous logging"
         ]
     },
     {
-        title: "Kintshop E-commerce Platform",
-        description: "An e-commerce platform built with Django and Next.js, featuring advanced search capabilities and real-time inventory management.",
-        image: "/projects/kintshop.png",
-        technologies: ["Python", "Django", "Next.js", "Elasticsearch", "Redis"],
-        liveUrl: "https://kintshop.com/",
-        githubUrl: "https://github.com/yourusername/project",
+        title: "Website to PDF",
+        description: "A simple and flexible for converting websites to PDF.",
+        image: "/projects/website-to-pdf.png",
+        technologies: ["Python"],
+        liveUrl: `https://github.com/${username}/website-to-pdf`,
+        githubUrl: `https://github.com/${username}/website-to-pdf`,
         highlights: [
-            "Implemented Elasticsearch for advanced search features",
-            "Built responsive UI with Next.js",
-            "Integrated payment gateway",
-            "Implemented caching system"
+            "Simple and flexible for converting websites to PDF",
+            "Supports both synchronous and asynchronous logging"
         ]
-    },
-    {
-        title: "Kintshop E-commerce Platform",
-        description: "An e-commerce platform built with Django and Next.js, featuring advanced search capabilities and real-time inventory management.",
-        image: "/projects/kintshop.png",
-        technologies: ["Python", "Django", "Next.js", "Elasticsearch", "Redis"],
-        liveUrl: "https://kintshop.com/",
-        githubUrl: "https://github.com/yourusername/project",
-        highlights: [
-            "Implemented Elasticsearch for advanced search features",
-            "Built responsive UI with Next.js",
-            "Integrated payment gateway",
-            "Implemented caching system"
-        ]
-    },
+    }
 ]

@@ -61,14 +61,14 @@ export default function Home() {
       animate="visible"
     >
       {/* Header Section */}
-      <div className="flex gap-4 p-3 items-center justify-between max-w-6xl mx-auto">
-        <motion.div className="flex items-center gap-4" variants={itemVariants}>
+      <div className="flex flex-col sm:flex-row gap-4 p-3 items-center justify-between max-w-6xl mx-auto">
+        <motion.div className="flex flex-col sm:flex-row items-center gap-4" variants={itemVariants}>
           <Avatar>
-            <AvatarImage className="rounded-full" width={64} height={64} src="/logo.jpeg" />
+            <AvatarImage className="rounded-full w-16 h-16 sm:w-[64px] sm:h-[64px]" src="/logo.jpeg" />
             <AvatarFallback>HFK</AvatarFallback>
           </Avatar>
-          <div>
-            <h1 className="text-3xl font-bold">Hasan Furkan Koprulu</h1>
+          <div className="text-center sm:text-left">
+            <h1 className="text-2xl sm:text-3xl font-bold">Hasan Furkan Koprulu</h1>
             <p className="text-muted-foreground">Full Stack Developer</p>
           </div>
         </motion.div>
@@ -81,11 +81,13 @@ export default function Home() {
         variants={containerVariants}
       >
         {/* About Section */}
-        <motion.section variants={itemVariants} className="text-center max-w-3xl mx-auto flex gap-4 p-1 items-center justify-center">
-          <p className="text-lg text-muted-foreground">
+        <motion.section variants={itemVariants} className="text-center max-w-3xl mx-auto flex flex-col lg:flex-row gap-4 p-1 items-center justify-center">
+          <p className="text-base sm:text-lg text-muted-foreground">
             {`Hello, I'm Hasan Furkan, I'm interested in working on new projects and meeting new people. I can help you with backend development using backend frameworks such as Django, Expressjs, frontend development using frameworks such as Nextjs, React and mobile application development using React Native.`}
           </p>
-          <IconCloudDemo />
+          <div className="w-full lg:w-auto">
+            <IconCloudDemo />
+          </div>
         </motion.section>
 
         {/* Skills Section */}
@@ -100,16 +102,16 @@ export default function Home() {
         {/* Blog Section */}
         <motion.section
           variants={itemVariants}
-          className="max-w-6xl mx-auto mt-16"
+          className="max-w-6xl mx-auto mt-16 px-4 sm:px-6"
         >
-          <div className="flex justify-between items-center mb-8">
+          <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
             <h2 className="text-2xl font-semibold">Latest Articles</h2>
             <Button variant="outline" onClick={() => window.open('/blog', '_blank')}>
               View All Posts
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {mediumPosts.map((post, index) => (
               <BlogCard
                 key={index}
@@ -135,7 +137,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-6">Let's Connect</h2>
 
           {/* Social Links */}
-          <div className="flex gap-4 justify-center mt-8">
+          <div className="flex flex-wrap gap-4 justify-center mt-8">
             <Button
               variant="outline"
               onClick={() => window.open('https://github.com/hasan-furkan', '_blank')}
