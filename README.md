@@ -34,6 +34,8 @@ pnpm install
 3. Create a `.env.local` file in the root directory and add your Medium RSS feed URL:
 ```env
 MEDIUM_RSS_URL=https://medium.com/feed/@your-medium-username
+EMAIL_USER=example@example.com
+EMAIL_PASS=example
 ```
 
 4. Run the development server:
