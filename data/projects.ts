@@ -42,7 +42,7 @@ export const projects = [
     },
     {
         title: "Admin Panel Starter",
-        description: "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI.",
+        description: "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI with i18n support.",
         image: "/projects/admin-panel-starter.png",
         technologies: ["Next.js", "Tailwind CSS", "Shadcn UI"],
         liveUrl: `https://admin-start.ihfk.me/dashboard/crm`,
@@ -50,7 +50,8 @@ export const projects = [
         highlights: [
             "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI",
             "CRM Dashboard",
-            "E-Commerce Dashboard"
+            "E-Commerce Dashboard",
+            "i18n Support"
         ]
     }
 ]
