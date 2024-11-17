@@ -39,5 +39,18 @@ export const projects = [
             "Simple and flexible for converting websites to PDF",
             "Supports both synchronous and asynchronous logging"
         ]
+    },
+    {
+        title: "Admin Panel Starter",
+        description: "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI.",
+        image: "/projects/admin-panel-starter.png",
+        technologies: ["Next.js", "Tailwind CSS", "Shadcn UI"],
+        liveUrl: `https://admin-start.ihfk.me/dashboard/crm`,
+        githubUrl: `https://github.com/${username}/hfk-admin-starter-kit`,
+        highlights: [
+            "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI",
+            "CRM Dashboard",
+            "E-Commerce Dashboard"
+        ]
     }
 ]
