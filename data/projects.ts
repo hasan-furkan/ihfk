@@ -45,7 +45,7 @@ export const projects = [
         description: "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI with i18n support.",
         image: "/projects/admin-panel-starter.png",
         technologies: ["Next.js", "Tailwind CSS", "Shadcn UI"],
-        liveUrl: `https://admin-start.ihfk.me/dashboard/crm`,
+        liveUrl: `https://admin-start.ihfk.me/auth/login`,
         githubUrl: `https://github.com/${username}/hfk-admin-starter-kit`,
         highlights: [
             "Nextjs Admin Panel Starter with Tailwind CSS and Shadcn UI",
